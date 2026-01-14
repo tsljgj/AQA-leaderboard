@@ -1,0 +1,108 @@
+{
+  "participants": {
+    "agent": "019bbcc3-4918-78c2-b409-f558b12e3517"
+  },
+  "results": [
+    {
+      "assessment_id": "aqa-1768401935",
+      "config": {
+        "num_tasks": 5,
+        "difficulty": [
+          "easy",
+          "medium"
+        ],
+        "seed": 42
+      },
+      "items": [
+        {
+          "qid": "20260102_200156_level1",
+          "difficulty": "medium",
+          "question": "Determine the director of the film Inception and denote this referenced entity as $x$; then using authoritative biographical and historical archives, identify the globally significant historical event occurring during $x$'s birth year that is verifiably documented as having substantial worldwide impact within its calendar year.",
+          "reference_answer": "Apollo 13",
+          "agent_answer": "Error: Unable to generate answer (Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}})",
+          "correct": false,
+          "score": 0.0,
+          "latency_ms": 4505,
+          "evaluation_reasoning": "No match (fallback evaluation)",
+          "domain": "web_search"
+        },
+        {
+          "qid": "20260103_045736_level0",
+          "difficulty": "easy",
+          "question": "Who were the Wright Brothers?",
+          "reference_answer": "Orville and Wilbur Wright",
+          "agent_answer": "Error: Unable to generate answer (Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}})",
+          "correct": false,
+          "score": 0.0,
+          "latency_ms": 3603,
+          "evaluation_reasoning": "No match (fallback evaluation)",
+          "domain": "web_search"
+        },
+        {
+          "qid": "20260103_010930_level0",
+          "difficulty": "easy",
+          "question": "Which band released the album Abbey Road?",
+          "reference_answer": "The Beatles",
+          "agent_answer": "Error: Unable to generate answer (Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}})",
+          "correct": false,
+          "score": 0.0,
+          "latency_ms": 4730,
+          "evaluation_reasoning": "No match (fallback evaluation)",
+          "domain": "web_search"
+        },
+        {
+          "qid": "20260103_080737_level1",
+          "difficulty": "medium",
+          "question": "A vehicle commences motion from rest under constant acceleration of $5  \\text{m/s}^2$ for $10  \\text{s}$ using the kinematic relation $v = u + at$ with $u = 0  \\text{m/s}$; employing the resultant scalar quantity as the initial velocity $u$ for the subsequent phase, calculate the stopping distance when decelerating constantly at $a = -5  \\text{m/s}^2$ to rest via $v^2 = u^2 + 2as$ where $v = 0  \\text{m/s}$, ensuring all motion adheres strictly to constant acceleration constraints without external assumptions.",
+          "reference_answer": "250",
+          "agent_answer": "Error: Unable to generate answer (Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}})",
+          "correct": false,
+          "score": 0.0,
+          "latency_ms": 4011,
+          "evaluation_reasoning": "No match (fallback evaluation)",
+          "domain": "physics"
+        },
+        {
+          "qid": "20260103_025021_level1",
+          "difficulty": "medium",
+          "question": "Determine the entity associated with the Mona Lisa painting's creation; utilizing the place-based modifier intrinsic to this entity's formal identifier, identify the singular museum institution operating within the corresponding municipality that specializes in exhibiting operational reproductions derived exclusively from the entity's preserved engineering documentation, confirming this venue's designation remains unambiguous among all cultural establishments honoring the entity's contributions within the region.",
+          "reference_answer": "Museo Leonardiano di Vinci",
+          "agent_answer": "Error: Unable to generate answer (Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}})",
+          "correct": false,
+          "score": 0.0,
+          "latency_ms": 4189,
+          "evaluation_reasoning": "No match (fallback evaluation)",
+          "domain": "web_search"
+        }
+      ],
+      "aggregate": {
+        "total_tasks": 5,
+        "correct": 0,
+        "pass_rate": 0.0,
+        "avg_score": 0.0,
+        "total_time_ms": 21038,
+        "avg_latency_ms": 4207,
+        "by_difficulty": {
+          "easy": {
+            "correct": 0,
+            "total": 2,
+            "pass_rate": 0.0,
+            "avg_score": 0.0
+          },
+          "medium": {
+            "correct": 0,
+            "total": 3,
+            "pass_rate": 0.0,
+            "avg_score": 0.0
+          }
+        }
+      },
+      "metadata": {
+        "purple_agent_url": "http://agent:9009/",
+        "dataset_size": 80,
+        "evaluator_model": "gpt-4o-mini",
+        "timestamp": "2026-01-14T14:45:35Z"
+      }
+    }
+  ]
+}
