@@ -1,16 +1,11 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019bbc5c-0192-78e3-81b7-0d4bd1cf6b9c"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+agentbeats_id = "019bbcc3-4918-78c2-b409-f558b12e3517"
+name = "purple_baseline"
+env = { OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", SERPAPI_API_KEY = "${SERPAPI_API_KEY}", OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
 [config]
 # Add your assessment config here
