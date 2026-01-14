@@ -8,4 +8,6 @@ name = "agent"
 env = {OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", SERPAPI_API_KEY = "${SERPAPI_API_KEY}", OPENAI_API_KEY = "${OPENAI_API_KEY}"}
 
 [config]
-# Add your assessment config here
+num_tasks = 5
+difficulty = ["easy", "medium"]
+seed = 42
