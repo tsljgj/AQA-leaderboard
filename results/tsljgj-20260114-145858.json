@@ -1,0 +1,108 @@
+{
+  "participants": {
+    "agent": "019bbcc3-4918-78c2-b409-f558b12e3517"
+  },
+  "results": [
+    {
+      "assessment_id": "aqa-1768402737",
+      "config": {
+        "num_tasks": 5,
+        "difficulty": [
+          "easy",
+          "medium"
+        ],
+        "seed": 42
+      },
+      "items": [
+        {
+          "qid": "20260102_200156_level1",
+          "difficulty": "medium",
+          "question": "Determine the director of the film Inception and denote this referenced entity as $x$; then using authoritative biographical and historical archives, identify the globally significant historical event occurring during $x$'s birth year that is verifiably documented as having substantial worldwide impact within its calendar year.",
+          "reference_answer": "Apollo 13",
+          "agent_answer": "The director of the film *Inception* is Christopher Nolan, denoted as $x$. Christopher Nolan was born in 1970.\n\nAmong the globally significant historical events in 1970, the **First Earth Day**, held on **April 22, 1970**, stands out as having substantial worldwide impact within its calendar year.\n\n**Event**: First Earth Day  \n**Date**: April 22, 1970  \n**Significance**: Approximately 20 million Americans participated in environmental protests, marking the birth of the modern environmental movement. This event led to the creation of the U.S. Environmental Protection Agency (EPA) and the passage of landmark environmental laws such as the Clean Air Act and Clean Water Act. Its impact was not only national but also inspired global environmental awareness and activism, laying the foundation for future international environmental policies.\n\nThus, the globally significant historical event during $x$'s birth year with verifiable substantial worldwide impact is the **First Earth Day**.",
+          "correct": true,
+          "score": 1.0,
+          "latency_ms": 63553,
+          "evaluation_reasoning": "The agent correctly identified Christopher Nolan as the director of *Inception*, his birth year as 1970, and provided a significant historical event, the First Earth Day, that occurred in that year with substantial worldwide impact.",
+          "domain": "web_search"
+        },
+        {
+          "qid": "20260103_045736_level0",
+          "difficulty": "easy",
+          "question": "Who were the Wright Brothers?",
+          "reference_answer": "Orville and Wilbur Wright",
+          "agent_answer": "The Wright Brothers were American inventors, engineers, and aviation pioneers who are credited with creating and building the world's first successful airplane. They were Orville Wright (1871\u20131948) and Wilbur Wright (1867\u20131912). On December 17, 1903, they made the first controlled, sustained, powered flight in a heavier-than-air machine near Kitty Hawk, North Carolina. This historic flight marked the beginning of modern aviation.\n\nThe brothers developed a three-axis control system that allowed pilots to steer the aircraft effectively and maintain balance\u2014fundamental principles still used in aviation today. Their innovative work laid the foundation for the development of the airplane and the aerospace industry.",
+          "correct": true,
+          "score": 1.0,
+          "latency_ms": 2480,
+          "evaluation_reasoning": "The agent's answer provides accurate and relevant information about the Wright Brothers, including their names and contributions to aviation, which aligns with the reference answer.",
+          "domain": "web_search"
+        },
+        {
+          "qid": "20260103_010930_level0",
+          "difficulty": "easy",
+          "question": "Which band released the album Abbey Road?",
+          "reference_answer": "The Beatles",
+          "agent_answer": "The band that released the album *Abbey Road* is The Beatles.",
+          "correct": true,
+          "score": 1.0,
+          "latency_ms": 635,
+          "evaluation_reasoning": "The agent's answer is semantically equivalent to the reference answer, providing the same information in a different phrasing.",
+          "domain": "web_search"
+        },
+        {
+          "qid": "20260103_080737_level1",
+          "difficulty": "medium",
+          "question": "A vehicle commences motion from rest under constant acceleration of $5  \\text{m/s}^2$ for $10  \\text{s}$ using the kinematic relation $v = u + at$ with $u = 0  \\text{m/s}$; employing the resultant scalar quantity as the initial velocity $u$ for the subsequent phase, calculate the stopping distance when decelerating constantly at $a = -5  \\text{m/s}^2$ to rest via $v^2 = u^2 + 2as$ where $v = 0  \\text{m/s}$, ensuring all motion adheres strictly to constant acceleration constraints without external assumptions.",
+          "reference_answer": "250",
+          "agent_answer": "The stopping distance of the vehicle during the deceleration phase is **250 meters**.",
+          "correct": true,
+          "score": 1.0,
+          "latency_ms": 13943,
+          "evaluation_reasoning": "The agent's answer of '250 meters' is semantically equivalent to the reference answer '250' as it conveys the same numerical value and context.",
+          "domain": "physics"
+        },
+        {
+          "qid": "20260103_025021_level1",
+          "difficulty": "medium",
+          "question": "Determine the entity associated with the Mona Lisa painting's creation; utilizing the place-based modifier intrinsic to this entity's formal identifier, identify the singular museum institution operating within the corresponding municipality that specializes in exhibiting operational reproductions derived exclusively from the entity's preserved engineering documentation, confirming this venue's designation remains unambiguous among all cultural establishments honoring the entity's contributions within the region.",
+          "reference_answer": "Museo Leonardiano di Vinci",
+          "agent_answer": "The entity associated with the Mona Lisa's creation is **Leonardo da Vinci**.\n\nUsing the place-based modifier intrinsic to this entity's formal identifier (\"da Vinci\", meaning \"from Vinci\"), the corresponding municipality is Vinci, Italy. However, the question seeks the museum within the major city most associated with his engineering work\u2014Milan.\n\nThe singular museum institution in Milan specializing in exhibiting operational reproductions derived **exclusively** from Leonardo da Vinci's preserved engineering documentation is the **Museo Nazionale della Scienza e della Tecnologia 'Leonardo da Vinci'**.\n\nThis designation remains unambiguous because:\n- It holds the **most important historical collection in the world** of machine models based on academic interpretation of Leonardo's drawings.\n- It is consistently distinguished from other exhibits (like Leonardo3 Museum) that include interpretive or interactive elements not strictly bound to preserved documentation.\n- Multiple authoritative sources (including museum descriptions and visitor comparisons) confirm its primacy in historically accurate, documentation-based reproductions.\n\nThus, despite the presence of other Leonardo-themed museums in Milan, the **Museo Nazionale della Scienza e della Tecnologia 'Leonardo da Vinci'** is the unambiguous institution meeting the specified criteria.",
+          "correct": false,
+          "score": 0.0,
+          "latency_ms": 121451,
+          "evaluation_reasoning": "The agent's answer identifies Leonardo da Vinci as the creator of the Mona Lisa but does not provide the required museum institution, which is the focus of the question.",
+          "domain": "web_search"
+        }
+      ],
+      "aggregate": {
+        "total_tasks": 5,
+        "correct": 4,
+        "pass_rate": 0.8,
+        "avg_score": 0.8,
+        "total_time_ms": 202062,
+        "avg_latency_ms": 40412,
+        "by_difficulty": {
+          "easy": {
+            "correct": 2,
+            "total": 2,
+            "pass_rate": 1.0,
+            "avg_score": 1.0
+          },
+          "medium": {
+            "correct": 2,
+            "total": 3,
+            "pass_rate": 0.6666666666666666,
+            "avg_score": 0.6666666666666666
+          }
+        }
+      },
+      "metadata": {
+        "purple_agent_url": "http://agent:9009/",
+        "dataset_size": 80,
+        "evaluator_model": "gpt-4o-mini",
+        "timestamp": "2026-01-14T14:58:57Z"
+      }
+    }
+  ]
+}

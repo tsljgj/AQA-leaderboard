@@ -1,0 +1,8 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/tsljgj/aqa-green-agent@sha256:d0e010d321f0c1d1defd95229a2ed257ca8bd94ba7fa440b04a8646eb97b6dcf",
+    "agent": "ghcr.io/tsljgj/aqa-baseline-purple-agent@sha256:cc907ecfaf0dc27f00d6f13ecc9e30589054b1b99ced5d1a3b06871f6ae7e590",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-14T14:58:58Z"
+}
