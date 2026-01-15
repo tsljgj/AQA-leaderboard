@@ -9,5 +9,6 @@ env = {OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", SERPAPI_API_KEY = "${SERPAP
 
 [config]
 num_tasks = 5
-difficulty = ["easy", "medium"]
+subjects = ["web", "science"]
+difficulty = ["easy", "medium", "hard", "expert"]
 seed = 42
