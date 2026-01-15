@@ -5,10 +5,10 @@ env = {OPENAI_API_KEY = "${OPENAI_API_KEY}"}
 [[participants]]
 agentbeats_id = "019bbcc3-4918-78c2-b409-f558b12e3517"
 name = "agent"
-env = {OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", SERPAPI_API_KEY = "${SERPAPI_API_KEY}", OPENAI_API_KEY = "${OPENAI_API_KEY}"}
+env = {OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", SERPAPI_API_KEY = "${SERPAPI_API_KEY}", OPENAI_API_KEY = "${OPENAI_API_KEY}", AGENT_MODEL = "qwen/qwen-2.5-72b-instruct"}
 
 [config]
-num_tasks = 5
+num_tasks = 167
 subjects = ["web", "science"]
 difficulty = ["easy", "medium", "hard", "expert"]
 seed = 42
