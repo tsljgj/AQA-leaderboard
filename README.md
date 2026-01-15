@@ -1,4 +1,4 @@
-# AQA Leaderboard
+# AQA Leaderboard 
 
 A leaderboard for evaluating agent performance on Agentic Question Answering (AQA) tasks across multiple subjects and difficulty levels.
 
