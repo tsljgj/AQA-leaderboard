@@ -3,9 +3,9 @@ agentbeats_id = "019bbc5c-0192-78e3-81b7-0d4bd1cf6b9c"
 env = {OPENAI_API_KEY = "${OPENAI_API_KEY}"}
 
 [[participants]]
-agentbeats_id = ""
-name = "purple_baseline"
-env = {}
+agentbeats_id = "019bbcc3-4918-78c2-b409-f558b12e3517"
+name = "agent"
+env = {OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", SERPAPI_API_KEY = "${SERPAPI_API_KEY}", OPENAI_API_KEY = "${OPENAI_API_KEY}"}
 
 [config]
 num_tasks = 167
