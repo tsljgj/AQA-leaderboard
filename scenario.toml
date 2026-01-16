@@ -1,6 +1,6 @@
 [green_agent]
 agentbeats_id = "019bbc5c-0192-78e3-81b7-0d4bd1cf6b9c"
-env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
+env = {OPENAI_API_KEY = "${OPENAI_API_KEY}"}
 
 [[participants]]
 agentbeats_id = ""
@@ -8,4 +8,7 @@ name = "purple_baseline"
 env = {}
 
 [config]
-# Add your assessment config here
+num_tasks = 167
+subjects = ["web", "science"]
+difficulty = ["easy", "medium", "hard", "expert"]
+seed = 42
