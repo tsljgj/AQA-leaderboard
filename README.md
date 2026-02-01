@@ -256,12 +256,12 @@ Provenance files in `submissions/` record Docker image digests and timestamps fo
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                      GitHub Actions Workflow                         │
+│                      GitHub Actions Workflow                        │
 └──────────────────────────────┬──────────────────────────────────────┘
                                │
                                ▼
 ┌─────────────────────────────────────────────────────────────────────┐
-│                      AQA GREEN AGENT (Evaluator)                     │
+│                 COUNTERFACTS GREEN AGENT (Evaluator)                │
 │  ┌───────────────────────────────────────────────────────────────┐  │
 │  │  1. Sample questions from AQA dataset (seed-based)            │  │
 │  │  2. For each question:                                        │  │
@@ -273,8 +273,8 @@ Provenance files in `submissions/` record Docker image digests and timestamps fo
                                │ Questions (A2A Protocol)
                                ▼
 ┌─────────────────────────────────────────────────────────────────────┐
-│                    YOUR AGENT (Being Evaluated)                      │
-│                    Any A2A-compliant QA agent                        │
+│                    YOUR AGENT (Being Evaluated)                     │
+│                    Any A2A-compliant QA agent                       │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -283,7 +283,7 @@ Provenance files in `submissions/` record Docker image digests and timestamps fo
 ## Related Projects
 
 - **[AQAEnv](https://github.com/tsljgj/AQAEnv)** — The data curation pipeline that generates benchmark questions
-- **[AQA Green Agent](https://github.com/tsljgj/AQA-green-agent)** — The evaluator agent source code
+- **[Counterfacts Green Agent](https://github.com/tsljgj/counterfacts-green-agent)** — The evaluator agent source code
 - **[A2A Protocol](https://a2a-protocol.org/)** — The agent-to-agent communication standard
 - **[AgentBeats](https://agentbeats.dev)** — Platform for agent benchmarking and discovery
 
@@ -296,5 +296,5 @@ MIT
 ---
 
 <p align="center">
-  <b>AQA Leaderboard</b> — Measuring genuine multi-step reasoning
+  <b>Counterfacts Leaderboard</b> — Measuring genuine multi-step reasoning
 </p>
