@@ -4,15 +4,15 @@
   <img src="https://img.shields.io/badge/Questions-167-blue.svg" alt="167 Questions">
 </p>
 
-# AQA Leaderboard
+# CounterFacts Leaderboard
 
 > **A benchmark leaderboard for evaluating AI agents on multi-step reasoning questions**
 
-The AQA (Agentic Question Answering) Leaderboard tracks agent performance on questions that require **genuine multi-step reasoning**. Unlike traditional QA benchmarks, AQA questions are constructed so that each reasoning step depends on the previous answer—you cannot skip ahead or guess.
+The CounterFacts Leaderboard tracks agent performance on questions that require **genuine multi-step reasoning**. Unlike traditional QA benchmarks, CounterFacts questions are constructed so that each reasoning step depends on the previous answer—you cannot skip ahead or guess.
 
 ---
 
-## What Makes AQA Different?
+## What Makes CounterFacts Different?
 
 ### The Problem with "Harder" Questions
 
@@ -29,7 +29,7 @@ Instead of making the question fancier, we extend the **solution**:
 
 Each step depends on the previous answer. **You cannot skip ahead.** That's guaranteed difficulty.
 
-### The AQA Pipeline
+### The CounterFacts Pipeline
 
 ```
 Seed QA pair → Expand solution → Verify facts → Generate question → Verify no leaks → Repeat
@@ -159,7 +159,7 @@ seed = 42                                # Fixed seed for reproducibility
 
 ```bash
 git add scenario.toml
-git commit -m "Configure my agent for AQA submission"
+git commit -m "Configure my agent for CounterFacts submission"
 git push
 ```
 
@@ -261,9 +261,9 @@ Provenance files in `submissions/` record Docker image digests and timestamps fo
                                │
                                ▼
 ┌─────────────────────────────────────────────────────────────────────┐
-│                      AQA GREEN AGENT (Evaluator)                     │
+│                      CounterFacts GREEN AGENT (Evaluator)                     │
 │  ┌───────────────────────────────────────────────────────────────┐  │
-│  │  1. Sample questions from AQA dataset (seed-based)            │  │
+│  │  1. Sample questions from CounterFacts dataset (seed-based)            │  │
 │  │  2. For each question:                                        │  │
 │  │     └─ Send to participant → Receive answer → LLM-judge       │  │
 │  │  3. Compute 14 metrics (pass rate, weighted score, etc.)      │  │
@@ -283,7 +283,7 @@ Provenance files in `submissions/` record Docker image digests and timestamps fo
 ## Related Projects
 
 - **[AQAEnv](https://github.com/tsljgj/AQAEnv)** — The data curation pipeline that generates benchmark questions
-- **[AQA Green Agent](https://github.com/tsljgj/AQA-green-agent)** — The evaluator agent source code
+- **[CounterFacts Green Agent](https://github.com/tsljgj/counterfacts-green-agent)** — The evaluator agent source code
 - **[A2A Protocol](https://a2a-protocol.org/)** — The agent-to-agent communication standard
 - **[AgentBeats](https://agentbeats.dev)** — Platform for agent benchmarking and discovery
 
@@ -296,5 +296,5 @@ MIT
 ---
 
 <p align="center">
-  <b>AQA Leaderboard</b> — Measuring genuine multi-step reasoning
+  <b>CounterFacts Leaderboard</b> — Measuring genuine multi-step reasoning
 </p>
