@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Questions-167-blue.svg" alt="167 Questions">
 </p>
 
-# AQA Leaderboard
+# Counterfacts Leaderboard
 
 > **A benchmark leaderboard for evaluating AI agents on multi-step reasoning questions**
 
