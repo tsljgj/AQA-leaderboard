@@ -6,7 +6,7 @@ env = {OPENAI_API_KEY = "${OPENAI_API_KEY}"}
 agentbeats_id = ""
 name = "purple_baseline"
 env = {}
-
+ 
 [config]
 num_tasks = 167
 subjects = ["web", "science"]
