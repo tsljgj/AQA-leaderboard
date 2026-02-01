@@ -1,5 +1,5 @@
 [green_agent]
-image = "ghcr.io/tsljgj/aqa-green-agent:latest"
+agentbeats_id = "019bc5a5-6acd-70e1-ae07-e6b70dea9655"
 env = {OPENAI_API_KEY = "${OPENAI_API_KEY}"}
 
 [[participants]]
