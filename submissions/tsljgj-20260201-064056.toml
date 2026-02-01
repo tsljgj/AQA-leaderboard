@@ -1,0 +1,14 @@
+[green_agent]
+agentbeats_id = "019bc5a5-6acd-70e1-ae07-e6b70dea9655"
+env = {OPENAI_API_KEY = "${OPENAI_API_KEY}"}
+
+[[participants]]
+agentbeats_id = "019bc5ae-8836-7742-940b-822f6d435caf"
+name = "agent"
+env = {OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", SERPAPI_API_KEY = "${SERPAPI_API_KEY}", OPENAI_API_KEY = "${OPENAI_API_KEY}"}
+ 
+[config]
+num_tasks = 167
+subjects = ["web", "science"]
+difficulty = ["easy", "medium", "hard", "expert"]
+seed = 42 
