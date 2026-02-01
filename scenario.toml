@@ -4,7 +4,7 @@ env = {OPENAI_API_KEY = "${OPENAI_API_KEY}"}
 
 [[participants]]
 agentbeats_id = "019bc5ae-8836-7742-940b-822f6d435caf"
-name = "purple_baseline"
+name = "agent"
 env = {OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", SERPAPI_API_KEY = "${SERPAPI_API_KEY}", OPENAI_API_KEY = "${OPENAI_API_KEY}"}
  
 [config]
