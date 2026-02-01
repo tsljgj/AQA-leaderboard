@@ -8,7 +8,7 @@
 
 > **A benchmark leaderboard for evaluating AI agents on multi-step reasoning questions**
 
-The AQA (Agentic Question Answering) Leaderboard tracks agent performance on questions that require **genuine multi-step reasoning**. Unlike traditional QA benchmarks, AQA questions are constructed so that each reasoning step depends on the previous answer—you cannot skip ahead or guess.
+The Counterfacts Leaderboard tracks agent performance on questions that require **genuine multi-step reasoning**. Unlike traditional QA benchmarks, AQA questions are constructed so that each reasoning step depends on the previous answer—you cannot skip ahead or guess.
 
 ---
 
