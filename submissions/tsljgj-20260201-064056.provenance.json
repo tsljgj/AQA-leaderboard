@@ -1,0 +1,8 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/tsljgj/counterfacts-green-agent@sha256:5f120b0837f37409658ee1239c002f095fd25db4d39cb519e22118df2f971ab4",
+    "agent": "ghcr.io/tsljgj/aqa-baseline-purple-agent@sha256:56eb6d68d2a19b6ade66fc8a62127728fa89aa9e9ff5238f1d6c42b3386928e6",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-02-01T06:40:56Z"
+}
